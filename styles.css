@@ -1,28 +1,84 @@
-* {
+body {
     padding: 0;
     margin: 0;
-}
-
-.header-main {
     font-family: "Roboto", sans-serif;
-    color: #f9faf8;
-    background-color: #1f2937;
 }
 
-.header-container {
-    display: flex;
-    justify-content: start;
+.image {
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 15%;
 }
-
-.header-secondary {
-    display: flex;
-    justify-content: flex-end;
-}
-
 
 header {
     font-size: 24px;
     font-weight: 900;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.header-main, .footer {
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-height: 400px;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+p {
+    display: flex;
+    flex-wrap: flex;
+    max-width: 500px;
+    flex-direction: column;
+}
+
+
+button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+.img {
+    max-width: 100px;
+    border-radius: 15%;
 }
 
 .interactive {
@@ -30,12 +86,65 @@ header {
     color: #f9faf8;
 }
 
-.header-secondary {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
 .main {
     font-size: 48px;
     font-weight: 900;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+}
+
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    text-align: center;
+}
+
+.text {
+    max-width: 100px;
+}
+
+.quote { 
+    background-color: #e5e7eb;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.thor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-style: bold;
+}
+
+
+.signup {
+    background-color: #3882f6; 
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10%;
+
+}
+
+.click {
+    margin-left: 80%;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: solid 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
